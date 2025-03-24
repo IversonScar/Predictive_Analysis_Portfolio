@@ -1,5 +1,5 @@
-# Ignore all CSV files in the repository
-*.csv
+# Ignore specific large CSV files
+Crime_Analytics_Prediction/*.csv
 
 # Common files to ignore
 *.log
@@ -7,6 +7,3 @@ __pycache__/
 *.py[cod]
 *$py.class
 .DS_Store
-
-# Large CSV files
-Crime_Analytics_Prediction/*.csv
